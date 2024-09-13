@@ -1,0 +1,62 @@
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Register</title> 
+    <link rel="stylesheet" 
+          type="text/css" 
+          href="../global.css"> 
+    <link rel="stylesheet" 
+          type="text/css" 
+          href="./style.css"> 
+</head> 
+  
+<body> 
+    <div class="container"> 
+        <h1 id="logo" class="poppins-bold">AGORA</h1>
+        <div class="modal poppins-regular">
+            <h1>Register</h1>
+            <p class="tagline">Enter your details below</p>
+            <form method="post" action="register.php"> 
+
+                <div class="role-container" id="role-container">
+                    <div class="role-option active" data-role="customer">
+                        <p class="poppins-regular">Cutomer</p>
+                    </div>
+                    <div class="role-option" data-role="merchant">
+                        <p class="poppins-regular">Merchant</p>
+                    </div>
+                </div>
+
+                <input type="hidden" id="role" name="role" value="customer">
+
+                <label for="username"> 
+                    Username: 
+                </label> 
+                <input type="text" 
+                       id="username" 
+                       name="username" required> 
+      
+                <label for="email">Email:</label> 
+                <input type="email" 
+                       id="email" 
+                       name="email" required> 
+      
+                <label for="password">Password:</label> 
+                <input type="password" 
+                       id="password" 
+                       name="password" required> 
+      
+                <input type="submit" 
+                       value="Register"
+                       class="btn poppins-semibold"> 
+            </form> 
+            <p> Already have an account?</p> 
+            <a href="/agora/login/login.html">Login here</a> 
+        </div>
+    </div> 
+    <script src="script.js"></script> 
+</body> 
+  
+</html>

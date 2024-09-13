@@ -1,0 +1,251 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width:100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3vw;
+    width: 10%;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    height: 3vh;
+}
+
+.merchant {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.products {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-right: 1px solid silver;
+}
+
+.product-cards {
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 4vh;
+    column-gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.newproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    border: 1px solid silver;
+    width: 14vh;
+    cursor: pointer;
+}
+
+.newproduct:hover {
+    border: 3px solid black;
+}
+
+.newproduct img {
+    height: 5vh
+}
+
+.product img {
+    height: 20vh;
+}
+
+.product .product-name {
+    font-size: 1rem;
+}
+
+.product-price {
+    font-size: 1rem;
+}
+
+.product form {
+    width: 100%;
+}
+
+.product a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.product a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}
+
+
+.orders {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow-y: scroll;
+}
+
+.order-cards {
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 4vh;
+    width: 100%;
+}
+
+.order {
+    border-top: 1px solid silver;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.order-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.order-conf {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.order-conf:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* ADD PRODUCT STYLES */
+.modal {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column; 
+    row-gap: 2vh;
+    margin-top: 15vh;
+}
+
+#tagline {
+    color: gray;
+    border-bottom: 1px solid silver;
+    padding-bottom: 2vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
+
+#triggerDiv {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    cursor: pointer;
+}
+
+.add-form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3.5vh;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.add-form > * {
+    width: 100%;
+}
+
+.field  {
+    height: 3vh;
+    border: 1px solid silver;
+}
+
+#createbtn {
+    padding: 12px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+#createbtn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black; 
+}
+
+.uploadedimg {
+    width: 100%;
+}

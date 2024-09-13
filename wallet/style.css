@@ -1,0 +1,122 @@
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20pt;
+    margin-right: 20pt;
+}
+
+.back a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 60%;
+    margin-top: 10vh;
+    row-gap: 8vh;
+}
+
+#tagline {
+    color: gray;
+}
+
+.underline {
+    border-bottom: 3px solid black;
+}
+
+.operations {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vh;
+    height: 100%;
+}
+
+.funds-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    row-gap: 5vh;
+}
+
+.funds {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.operations > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 6vh;
+    row-gap: 3vh;
+    height: 100%;
+}
+
+.operations > div > h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+form input {
+    width: 20vw;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.tt {
+    height: 5vh;
+    font-size: 1.5rem;
+}

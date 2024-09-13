@@ -1,0 +1,104 @@
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20pt;
+    margin-right: 20pt;
+}
+
+.back a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+.modal {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 4vh;
+    margin-top: 7vh;
+}
+
+.cart {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    border: 1px solid silver;
+}
+
+.cart-item {
+    border-bottom: 1px solid silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+}
+
+.cart-item-info {
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    width: 100%;
+}
+
+.cart-img {
+    height: 30vh;
+}
+
+.item-total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 2vh;
+}
+
+.edit {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.edit input {
+    border: 1px solid silver; 
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions input {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
